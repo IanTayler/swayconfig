@@ -6,7 +6,7 @@
 
 ### Variables
 #
-# Logo key. Use Mod1 for Alt.
+# Logo key. Use Mod1 for Alt and Mod4 for Super.
 set $mod Mod1
 # Home row direction keys, like vim
 set $left h
@@ -207,5 +207,5 @@ bar {
         background #323232
         inactive_workspace #32323200 #32323200 #5c5c5c
     }
+    status_command i3status
 }
-
