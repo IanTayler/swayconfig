@@ -83,6 +83,10 @@ output * bg /usr/share/backgrounds/f29/default/normalish/f29.png fill
 
     # exit sway (logs you out of your wayland session)
     bindsym $mod+Shift+e exit
+
+    # volume keys
+    bindsym XF86AudioRaiseVolume exec "amixer sset Master 5%+"
+    bindsym XF86AudioLowerVolume exec "amixer sset Master 5%-"
 #
 # Moving around:
 #
