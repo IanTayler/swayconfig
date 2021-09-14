@@ -92,6 +92,10 @@ output * bg /usr/share/backgrounds/f29/default/normalish/f29.png fill
     bindsym XF86AudioRaiseVolume exec "amixer sset Master 10%+"
     bindsym XF86AudioLowerVolume exec "amixer sset Master 10%-"
     bindsym XF86AudioMute exec "amixer sset Master toggle"
+
+    # brightness keys
+    bindsym XF86MonBrightnessDown exec light -U 20
+    bindsym XF86MonBrightnessUp exec light -A 20
 #
 # Screenshots
 #
